@@ -1,6 +1,132 @@
 * {
   list-style: none;
 }
+body {
+  background-color: #0f0e17 !important;
+}
 .checked {
   text-decoration: line-through;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+h1 {
+  color: #f25f4c !important;
+  margin-bottom: 30px !important;
+
+  text-align: center;
+}
+ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0 !important; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.app {
+  background-color: #fffffe;
+  padding: 40px 50px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+  height: 70vh;
+  max-height: 80vh;
+  overflow-y: auto;
+  min-width: 500px;
+  max-width: 500px;
+  overflow-x: hidden;
+}
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+button {
+  color: #fffffe;
+  background-color: #ff8906;
+  border-radius: 5px !important;
+  border-style: none;
+  cursor: pointer;
+  padding: 6px 15px;
+  box-sizing: border-box;
+  font-weight: bold;
+  z-index: 1;
+}
+button:hover {
+  color: #fffffe;
+  background-color: #df7d0e;
+  border-radius: 5px !important;
+  border-style: none;
+  cursor: pointer;
+  padding: 6px 15px;
+  box-sizing: border-box;
+}
+
+input {
+  border-radius: 20px;
+  padding: 5px;
+  background: transparent;
+  border-color: wheat;
+}
+li {
+  margin-top: 10px;
+}
+
+.task-checkbox {
+  accent-color: pink;
+}
+
+.task-checkbox:checked {
+  accent-color: rgb(113, 183, 113);
+}
+label#task {
+  margin-bottom: 5px !important;
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e53170;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c32f62;
+}
+label[for="task"] {
+  color: #a7a9be; /* Change the color to your desired color */
+  margin-bottom: 4px;
+}
+form {
+  margin-left: 80px;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  align-items: center;
+}
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+p {
+  cursor: pointer;
+  margin-bottom: 0px !important;
+
+  font-weight: bold;
+  color: #f25f4c;
 }
