@@ -22,9 +22,9 @@ h1 {
   text-align: center;
 }
 ul {
-  list-style: none; /* Remove default list styles */
-  padding: 0 !important; /* Remove default padding */
-  margin: 0; /* Remove default margin */
+  list-style: none;
+  padding: 0 !important;
+  margin: 0;
 }
 
 .app {
@@ -45,29 +45,9 @@ form {
   align-items: center;
   text-align: center;
 }
-button {
-  color: #fffffe;
-  background-color: #ff8906;
-  border-radius: 5px !important;
-  border-style: none;
-  cursor: pointer;
-  padding: 6px 15px;
-  box-sizing: border-box;
-  font-weight: bold;
-  z-index: 1;
-}
-button:hover {
-  color: #fffffe;
-  background-color: #df7d0e;
-  border-radius: 5px !important;
-  border-style: none;
-  cursor: pointer;
-  padding: 6px 15px;
-  box-sizing: border-box;
-}
 
 input {
-  border-radius: 20px;
+  border-radius: 20px 0px 0px 20px;
   padding: 5px;
   background: transparent;
   border-color: wheat;
@@ -104,7 +84,7 @@ label#task {
   background: #c32f62;
 }
 label[for="task"] {
-  color: #a7a9be; /* Change the color to your desired color */
+  color: #a7a9be;
   margin-bottom: 4px;
 }
 form {
@@ -129,4 +109,22 @@ p {
 
   font-weight: bold;
   color: #f25f4c;
+}
+.wrapper {
+  position: relative;
+}
+.wrapper button {
+  position: absolute;
+  left: 10;
+  color: #fffffe;
+  background-color: #ff8906;
+  border-radius: 0px 20px 20px 0px;
+  border-style: none;
+  cursor: pointer;
+  padding: 6px 15px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.wrapper button:hover {
+  background-color: #c7710f;
 }
