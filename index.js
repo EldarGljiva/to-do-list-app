@@ -17,7 +17,12 @@ app.use(express.static("public"));
 let tasks = [];
 
 app.get("/", (req, res) => {
-  res.render("index.ejs", { tasks });
+  const date = new Date();
+  let day = date.getDate();
+  let month = date.getMonth() + 1;
+  let year = date.getFullYear();
+  let currentDate = `${day}-${month}-${year}`;
+  res.render("index.ejs", { tasks, currentDate });
 });
 
 app.post("/addTask", (req, res) => {
