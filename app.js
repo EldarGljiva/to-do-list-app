@@ -45,8 +45,7 @@ app.post("/delete", async (req, res) => {
   const checkedItem = req.body.item;
   Item.findByIdAndDelete(checkedItem)
     .then(() => console.log("succesfully deleted"))
-    .catch((err) => console.log("Error:" + err));
-
+    .catch((err) => console.log(err));
   res.redirect("/");
 });
 

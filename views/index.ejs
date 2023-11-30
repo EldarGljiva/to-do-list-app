@@ -2,7 +2,7 @@
   <body>
     <div class="container flex-container">
       <div class="timer mb-4">
-        <%= currentDate %>
+       <%= currentDate %>
       </div>
       <div class="app">
         <h1>To-Do List</h1>
@@ -18,9 +18,7 @@
           <ul>
             <% foundItems.forEach((item, index) => { %>
               <form action="/delete" method="POST">
-                
                   <li class="flex-row">
-                      
                         <input
                         type="checkbox"
                         class="task-checkbox"
@@ -30,11 +28,7 @@
                         value="<%=item._id %>"
                       />
                       <label for="item"><%= item.name %></label>
-                    
-                        
-                      
                   </li>
-               
               </form>
             <% }); %>
           </ul>
@@ -45,7 +39,6 @@
       function toggleClass(checkboxId) {
         var checkbox = document.getElementById(checkboxId);
         var label = checkbox.nextElementSibling;
-    
         if (checkbox.checked) {
           label.classList.add("checked");
         } else {

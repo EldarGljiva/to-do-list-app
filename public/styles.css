@@ -98,9 +98,7 @@ li {
 .task-checkbox:checked {
   accent-color: rgb(113, 183, 113);
 }
-label#task {
-  margin-bottom: 5px !important;
-}
+
 ::-webkit-scrollbar {
   width: 20px;
 }
@@ -123,13 +121,6 @@ label[for="task"] {
   margin-bottom: 4px;
 }
 
-.flex-column {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
-}
 .flex-row {
   display: flex;
   justify-content: flex-start;
