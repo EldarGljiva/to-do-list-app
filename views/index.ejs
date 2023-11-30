@@ -7,46 +7,45 @@
       <div class="app">
         <h1>To-Do List</h1>
         <div class="my-4">
-          <form action="/addTask" method="POST">
+          <form class ="form-submit" action="/" method="POST">
             <div class="wrapper">
-              <input type="text" id="task" name="task" required />
+              <input type="text" id="item" name="item" required />
               <button type="submit">+</button>
             </div>
           </form>
         </div>
         <div>
           <ul>
-            <% tasks.forEach((task, index) => { %>
-            <div>
-              <li class="flex-row">
-                <div>
-                  <input
-                    type="checkbox"
-                    class="task-checkbox"
-                    id="task<%= index %>"
-                    name="task"
-                    value="<%= task %>"
-                    onchange="toggleClass('task<%= index %>')"
-                  />
-                  <label for="task<%= index %>"><%= task %></label>
-                </div>
-                <div class="cancel" data-index="<%= index %>">
-                  <p>x</p>
-                </div>
-              </li>
-            </div>
-
+            <% foundItems.forEach((item, index) => { %>
+              <form action="/delete" method="POST">
+                
+                  <li class="flex-row">
+                      
+                        <input
+                        type="checkbox"
+                        class="task-checkbox"
+                        id="item<%= index %>"
+                        name="item"
+                        onchange="toggleClass(id);this.form.submit();"
+                        value="<%=item._id %>"
+                      />
+                      <label for="item"><%= item.name %></label>
+                    
+                        
+                      
+                  </li>
+               
+              </form>
             <% }); %>
           </ul>
         </div>
       </div>
     </div>
-
     <script>
       function toggleClass(checkboxId) {
         var checkbox = document.getElementById(checkboxId);
         var label = checkbox.nextElementSibling;
-
+    
         if (checkbox.checked) {
           label.classList.add("checked");
         } else {
