@@ -18,6 +18,7 @@ While working on this project, I deepened my understanding of JavaScript, HTML, 
 
 ## How to run
 -open terminal > type npm install >type node app.js > type in browser: localhost:3000
+
 ⚠️ Note: Before running the application, make sure to run npm install to install the required dependencies.
 
 ## Project Screenshots
