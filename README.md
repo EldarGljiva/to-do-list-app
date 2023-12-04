@@ -14,8 +14,10 @@ To-Do List is a project built using the MERN stack, emphasizing the implementati
   
 ## What I've Learned
 
-While working on this project, I deepened my understanding of JavaScript, HTML, and CSS. Besides that, I was introduced to NodeJS, ExpressJS, and EJS (for dynamic content). What made this experience even more enriching is that it was my first time working with a non-relational database, using MongoDB with Mongoose for data handling. Moreover, this project was my introduction to the MERN stack :). Exploring and integrating these technologies for the first time added an extra layer of excitement to the learning journey. I really liked using the MERN stack, and I'm excited to work on more projects with it in the future.
+While working on this project, I deepened my understanding of JavaScript, HTML, and CSS. Besides that, I was introduced to NodeJS, ExpressJS, and EJS (for dynamic content). What made this experience even more enriching is that it was my first time working with a non-relational database, using MongoDB with Mongoose for data handling. Moreover, this project was my introduction to the MERN stack. Exploring and integrating these technologies for the first time added an extra layer of excitement to the learning journey. I really liked using the MERN stack, and I'm excited to work on more projects with it in the future.
 
+## How to run
+-open terminal > type npm install >type node app.js > type in browser: localhost:3000
 ⚠️ Note: Before running the application, make sure to run npm install to install the required dependencies.
 
 ## Project Screenshots
