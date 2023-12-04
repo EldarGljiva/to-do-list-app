@@ -17,3 +17,8 @@ To-Do List is a project built using the MERN stack, emphasizing the implementati
 While working on this project, I deepened my understanding of JavaScript, HTML, and CSS. Besides that, I was introduced to NodeJS, ExpressJS, and EJS (for dynamic content). What made this experience even more enriching is that it was my first time working with a non-relational database, using MongoDB with Mongoose for data handling. Moreover, this project was my introduction to the MERN stack :). Exploring and integrating these technologies for the first time added an extra layer of excitement to the learning journey. I really liked using the MERN stack, and I'm excited to work on more projects with it in the future.
 
 ⚠️ Note: Before running the application, make sure to run npm install to install the required dependencies.
+
+## Project Screenshots
+![to-do-list](https://github.com/EldarGljiva/to-do-list-app/assets/116194253/528a614c-14d2-493b-9cf7-5dd28b2d42f6)
+![to-do-list2](https://github.com/EldarGljiva/to-do-list-app/assets/116194253/b88279e7-691d-4c0f-9312-b42d3c1bc911)
+![to-do-list3](https://github.com/EldarGljiva/to-do-list-app/assets/116194253/07926ef2-6f7c-4eae-b358-0adc766bfe3a)
