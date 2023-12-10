@@ -24,4 +24,5 @@ While working on this project, I deepened my understanding of JavaScript, HTML, 
 ## Project Screenshots
 ![to-do-list](https://github.com/EldarGljiva/to-do-list-app/assets/116194253/528a614c-14d2-493b-9cf7-5dd28b2d42f6)
 ![to-do-list2](https://github.com/EldarGljiva/to-do-list-app/assets/116194253/b88279e7-691d-4c0f-9312-b42d3c1bc911)
+- Before being deleted when item is checked:
 ![to-do-list3](https://github.com/EldarGljiva/to-do-list-app/assets/116194253/07926ef2-6f7c-4eae-b358-0adc766bfe3a)
